@@ -16,7 +16,6 @@
     "url": "https://github.com/component/builder-autoprefixer/issues"
   },
   "dependencies": {
-    "buffer-crc32": "*",
     "autoprefixer": "*"
   },
   "homepage": "https://github.com/component/builder-autoprefixer"
