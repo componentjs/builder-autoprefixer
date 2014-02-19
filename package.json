@@ -1,0 +1,23 @@
+{
+  "name": "builder-autoprefixer",
+  "description": "autoprefixer plugin for component-builder2.js",
+  "version": "0.0.1",
+  "author": {
+    "name": "Jonathan Ong",
+    "email": "me@jongleberry.com",
+    "url": "http://jongleberry.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/component/autoprefixer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/component/autoprefixer/issues"
+  },
+  "dependencies": {
+    "buffer-crc32": "*",
+    "autoprefixer": "*"
+  },
+  "homepage": "https://github.com/component/autoprefixer"
+}
