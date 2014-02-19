@@ -10,14 +10,14 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/component/autoprefixer.git"
+    "url": "https://github.com/component/builder-autoprefixer.git"
   },
   "bugs": {
-    "url": "https://github.com/component/autoprefixer/issues"
+    "url": "https://github.com/component/builder-autoprefixer/issues"
   },
   "dependencies": {
     "buffer-crc32": "*",
     "autoprefixer": "*"
   },
-  "homepage": "https://github.com/component/autoprefixer"
+  "homepage": "https://github.com/component/builder-autoprefixer"
 }
