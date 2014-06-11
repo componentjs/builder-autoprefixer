@@ -5,10 +5,10 @@ var cache = Object.create(null);
 
 module.exports = function (options) {
   options = options || {};
-
+  var auto;
   var browsers = options.browsers;
   if (Array.isArray(browsers)) browsers = browsers.join(', ');
-  if (browsers) autoprefix = autoprefix(browsers);
+  if (browsers) auto = autoprefix(browsers);
   else browsers = '';
 
   return function autoprefixer(file, done) {
@@ -18,7 +18,7 @@ module.exports = function (options) {
       var hash = browsers + calculate(string);
       var res;
       try {
-        res = cache[hash] = cache[hash] || autoprefix.process(string);
+        res = cache[hash] = cache[hash] || auto.process(string);
       } catch (err) {
         done(err);
         return;
