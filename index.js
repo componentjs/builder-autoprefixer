@@ -5,7 +5,7 @@ var cache = Object.create(null);
 
 module.exports = function (options) {
   options = options || {};
-  var auto;
+  var auto = autoprefix;
   var browsers = options.browsers;
   if (Array.isArray(browsers)) browsers = browsers.join(', ');
   if (browsers) auto = autoprefix(browsers);
