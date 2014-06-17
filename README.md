@@ -10,7 +10,7 @@ var autoprefix = require('builder-autoprefixer')
 
 build.styles(branches, options)
   .use('styles',
-    autoprefix('last 2 versions'))
+    autoprefix({ browsers: 'last 2 versions' }))
   .pipe(process.stdout)
 ```
 
