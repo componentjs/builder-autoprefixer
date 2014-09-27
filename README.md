@@ -1,6 +1,6 @@
 # Builder Autoprefixer
 
-Autoprefixer plugin for [component-builder2](https://github.com/component/builder2.js). Caches to create incremental builds.
+Autoprefixer plugin for [builder2.js](https://github.com/componentjs/builder2.js). Caches to create incremental builds.
 
 ## API
 
