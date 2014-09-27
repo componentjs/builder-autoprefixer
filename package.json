@@ -1,5 +1,5 @@
 {
-  "name": "builder-autoprefixer",
+  "name": "component-builder-autoprefixer",
   "description": "autoprefixer plugin for component-builder2.js",
   "version": "1.0.2",
   "author": {
