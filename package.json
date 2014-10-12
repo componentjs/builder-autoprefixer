@@ -1,7 +1,7 @@
 {
   "name": "builder-autoprefixer",
   "description": "autoprefixer plugin for component-builder2.js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": {
     "name": "Jonathan Ong",
     "email": "me@jongleberry.com",
@@ -10,6 +10,6 @@
   "license": "MIT",
   "repository": "builder-autoprefixer",
   "dependencies": {
-    "autoprefixer": "^1.0.0"
+    "autoprefixer-core": "^3.1.1"
   }
 }

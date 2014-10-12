@@ -1,6 +1,6 @@
 # Builder Autoprefixer
 
-Autoprefixer plugin for [builder2.js](https://github.com/componentjs/builder2.js). Caches to create incremental builds.
+Autoprefixer plugin for [builder2.js](https://github.com/componentjs/builder2.js). Caches to create incremental builds. Based on [postcss/autoprefixer-core](https://github.com/postcss/autoprefixer-core).
 
 ## API
 
@@ -10,9 +10,12 @@ var autoprefix = require('builder-autoprefixer')
 
 build.styles(branches, options)
   .use('styles',
-    autoprefix({ browsers: 'last 2 versions' }))
+    autoprefix({ browsers: ['last 2 version'] }))
   .pipe(process.stdout)
 ```
+
+If you provide the `options` argument as a string, use comma as seperator for multiple options.
+To disable autoprefixer pass an empty string.
 
 ## License
 
