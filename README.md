@@ -5,7 +5,7 @@ Autoprefixer plugin for [builder2.js](https://github.com/componentjs/builder2.js
 ## API
 
 ```js
-var build = require('component-builder2')
+var build = require('component-builder')
 var autoprefix = require('builder-autoprefixer')
 
 build.styles(branches, options)
